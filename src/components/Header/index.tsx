@@ -55,6 +55,7 @@ function Header({ placeholder }: Props): JSX.Element {
 				endDate: endDate?.toISOString(),
 			},
 		});
+		setSearchInput('');
 	};
 
 	const selectionRange = {
