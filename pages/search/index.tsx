@@ -6,7 +6,6 @@ export interface Props {
 	searchResults: SearchResult[];
 }
 const Search: NextPage<Props> = ({ searchResults }) => {
-	console.log(searchResults);
 	return (
 		<div>
 			<Head>
